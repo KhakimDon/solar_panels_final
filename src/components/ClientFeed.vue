@@ -130,7 +130,7 @@ export default {
                 <div class="clienFeed h-[100%] w-[100%] flex z-[100]">
 
                     <div class="clientWrp pl-[150px] h-[80%] z-[100] w-[55%] flex items-center justify-between">
-                        <img class="imgFeed  h-[393px] w-[630px]" src="../assets/slider1.JPG" alt="">
+                        <img class="imgFeed  h-[393px] w-[630px]" src="../assets/slider1.jpg" alt="">
                     </div>
 
                     <div class="clientSecWrp h-[80%] z-[100] w-[45%]  flex flex-col ">
