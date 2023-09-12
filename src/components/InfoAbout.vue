@@ -1,16 +1,11 @@
 <script setup>
 </script>
 
-<script>
-export default {
-
-}
-</script>
 
 
 <template>
     <div class="about h-[803px] w-[100%]" id="About">
-        <div class="infoAbout h-[100%] w-[100%] flex ">
+        <div class="infoAbout h-[ы100%] w-[100%] flex ">
             <div class="infoleft w-[50%] h-[100%] bg-[#012465] flex flex-col justify-between">
                 <div class="mt-[72px] ml-[80px]">
                     <h2 class="text-[24px] text-[#fff] font-[500]"> {{ $t('panels.ecoEnergy')}}
@@ -26,14 +21,14 @@ export default {
 
                 </router-link>
             </div>
-            <div class="inforight w-[50%] h-[100%] bg-[pink]">
+            <div class="inforight w-[50%] h-[100%] ">
 
             </div>
         </div>
     </div>
     <div class="about h-[703px] w-[100%] mb-[100px]" id="About">
         <div class="infoAbout h-[100%] w-[100%] flex ">
-            <div class="inforight w-[50%] h-[100%] bg-[pink]">
+            <div class="inforight w-[50%] h-[100%] ">
 
             </div>
             <div class="infoleft w-[50%] h-[100%] bg-[#012465] flex flex-col justify-between">
@@ -63,14 +58,14 @@ export default {
 <style scoped>
 .inforight {
     background-repeat: no-repeat;
-    background-image: url('../assets/course.JPG');
+    background-image: url('../assets/course.jpg');
 
     background-size: cover;
     background-position: center;
 
 }
 .inforight:nth-child(2) {
-    background-image: url('../assets/seminn.JPG');
+    background-image: url('../assets/seminn.jpg');
 
     background-repeat: no-repeat;
     background-size: cover;
