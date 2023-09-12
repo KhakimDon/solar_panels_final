@@ -5,7 +5,7 @@
 
 <template>
     <div class="about h-[803px] w-[100%]" id="About">
-        <div class="infoAbout h-[ы100%] w-[100%] flex ">
+        <div class="infoAbout h-[100%] w-[100%] flex ">
             <div class="infoleft w-[50%] h-[100%] bg-[#012465] flex flex-col justify-between">
                 <div class="mt-[72px] ml-[80px]">
                     <h2 class="text-[24px] text-[#fff] font-[500]"> {{ $t('panels.ecoEnergy')}}
