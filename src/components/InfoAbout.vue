@@ -27,8 +27,8 @@
         </div>
     </div>
     <div class="about h-[703px] w-[100%] mb-[100px]" id="About">
-        <div class="infoAbout h-[100%] w-[100%] flex ">
-            <div class="inforight w-[50%] h-[100%] ">
+        <div class="infoAbout h-[100%] w-[100%] flex">
+            <div class="inforight w-[50%] h-[100%]">
 
             </div>
             <div class="infoleft w-[50%] h-[100%] bg-[#012465] flex flex-col justify-between">

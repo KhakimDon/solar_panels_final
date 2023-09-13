@@ -5,7 +5,7 @@ export default createStore({
     panels: [
       {
         id: 1,
-        img: "src/assets/water.webp",
+        img: "@/assets/water.webp",
         price: 250,
         title: "Water pump",
         wat: 800,
@@ -52,7 +52,7 @@ and start enjoying eco-friendly electricity that's as good for your wallet as it
       {
         id: 2,
         splasher: false,
-        img: "src/assets/image/cctv.jpg",
+        img: "@/assets/image/cctv.jpg",
         price: 500,
         title: "CCTV",
         wat: 850,
@@ -200,7 +200,7 @@ hello to reliable and cost-effective energy.
           `6. Built to last, with a lifespan of up to 25 years.`,
         ]
         ,
-        img: "src/assets/powergenerator.jpg",
+        img: "@/assets/powergenerator.jpg",
         price: 740,
         title: "1 and 2 Kilowatt Solar Power Generator",
         wat: 640,
