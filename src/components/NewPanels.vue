@@ -35,7 +35,7 @@ export default {
                 <div :id="i.id" @click="eventFunc(i)" v-for="i of this.panels" :key="i.id"
                     class="blockPanels h-[402px] mb-[20px] w-[305px] flex flex-col ">
                     <figure class="h-[242px] w-[305px]">
-                        <img class="imgPanels object-cover h-[100%] w-[100%]" :src="i.img" alt="">
+                        <img class="imgPanels object-cover h-[100%] w-[100%]" :src="`/src/assets/products/${this.panels.indexOf(i) + 1}.jpg`" alt="">
                     </figure>
                     <div class="mt-[35px] flex justify-between text-center h-[30px] items-center">
                         <span class="text-[20px]">{{ i.title }}</span>
