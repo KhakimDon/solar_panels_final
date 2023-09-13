@@ -57,11 +57,10 @@ export default {
                 </ul>
 
                 <div v-if="showsplasher" class="splashBlock flex items-center flex-wrap ">
-                    <img class="splasherimage h-[200px]  m-[20px]" src="../assets/splahser.jpg" alt="">
-                    <img class="splasherimage2 h-[200px] m-[20px]" src="../assets/fish.png" alt="">
+                    <img class="splasherimage h-[200px]  m-[20px]" src="../assets/products/7.jpg" alt="">
+                    <img class="splasherimage2 h-[200px] m-[20px]" src="../assets/products/4.jpg" alt="">
                     <img class="splasherimage2 h-[200px] m-[20px]" src="../assets/01.jpg" alt="">
                     <img class="splasherimage2 h-[200px] m-[20px]" src="../assets/02.jpg" alt="">
-                    <img class="splasherimage2 h-[200px] m-[20px]" src="../assets/03.jpg" alt="">
                     <img class="splasherimage2 h-[200px] m-[20px]" src="../assets/04.jpg" alt="">
                 </div>
 
